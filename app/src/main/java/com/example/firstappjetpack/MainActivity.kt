@@ -64,7 +64,7 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit) {
                 modifier = Modifier.padding(vertical = 24.dp),
                 onClick = onContinueClicked
             ) {
-                Text("Continue!!")
+                Text("Continue")
             }
         }
     }
